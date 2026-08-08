@@ -40,3 +40,4 @@ build/
 
 DB_config.properties
 .idea/
+persistence.xml
