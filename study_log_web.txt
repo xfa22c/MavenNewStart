@@ -86,3 +86,5 @@
 07.08.2026 -- 26 мин (Тренировка)
 07.08.2026 -- 36 Мин (Английские домашние задания - Speaking)
 07.08.2026 -- 68 Мин (Шведский - vägbeskriving)
+08.08.2026 -- 120 Мин (Английский с репетитором)
+08.08.2026 -- 147 Мин (Java - Jakarta EE,  JDBC, SQL commands - SELECT, INSERT, UPDATE, DELETE \\ Removing password from repository)
