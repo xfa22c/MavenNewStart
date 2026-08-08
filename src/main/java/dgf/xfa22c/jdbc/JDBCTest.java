@@ -59,7 +59,7 @@ public class JDBCTest {
 //            System.err.println("SQL connection error " + e.getMessage());
 //        }
 
-                    //DELETE SQL command
+                    //DELETE SQL Command
 //        String deleteSQL = "DELETE FROM users WHERE id = ?";
 //        try(Connection conn = DriverManager.getConnection(url, user, password);
 //            PreparedStatement pstmt = conn.prepareStatement(deleteSQL)
