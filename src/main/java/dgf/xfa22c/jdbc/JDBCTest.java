@@ -52,7 +52,7 @@ public class JDBCTest {
                 }
 
                 default -> {
-                    System.err.println("\n Ты слепой? ");
+                    System.err.println("\n Ты Слепой? ");
                     return;
                 }
 
