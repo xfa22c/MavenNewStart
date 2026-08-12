@@ -93,3 +93,4 @@
 10.08.2026 -- 35 Мин (Шведский - Mat och dryck)
 12.08.2026 -- 160 Мин (Английский с репетитором (11-08-2026)))
 12.08.2026 -- 100 Мин (Java - CRUD JDBC, validation, connection rollback, log actions)
+12.08.2026 -- 41 Мин (Шведский - Hälsningsfraser och presentation)
