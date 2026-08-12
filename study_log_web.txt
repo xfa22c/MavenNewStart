@@ -88,3 +88,8 @@
 07.08.2026 -- 68 Мин (Шведский - vägbeskriving)
 08.08.2026 -- 120 Мин (Английский с репетитором)
 08.08.2026 -- 147 Мин (Java - Jakarta EE,  JDBC, SQL commands - SELECT, INSERT, UPDATE, DELETE \\ Removing Password From Repository)
+10.08.2026 -- 19 Мин (Тренировка)
+10.08.2026 -- 26 Мин (Английский - Conditional revision)
+10.08.2026 -- 35 Мин (Шведский - Mat och dryck)
+12.08.2026 -- 160 Мин (Английский с репетитором (11-08-2026)))
+12.08.2026 -- 100 Мин (Java - CRUD JDBC, validation, connection rollback, log actions)
