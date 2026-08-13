@@ -94,3 +94,5 @@
 12.08.2026 -- 160 Мин (Английский с репетитором (11-08-2026)))
 12.08.2026 -- 100 Мин (Java - CRUD JDBC, validation, connection rollback, log actions)
 12.08.2026 -- 41 Мин (Шведский - Hälsningsfraser och presentation)
+13.08.2026 -- 60 Мин (Английский с репетитором - тест)
+13.08.2026 -- 66 Мин (Java - Jakarta EE Sessions & Cookies)
