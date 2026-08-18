@@ -97,3 +97,5 @@
 13.08.2026 -- 60 Мин (Английский с репетитором - тест)
 13.08.2026 -- 66 Мин (Java - Jakarta EE Sessions & Cookies)
 17.08.2026 -- 67 Мин (Шведский - Preteritum Upprepning)
+18.08.2026 -- 130 Мин (Английский с репетитором)
+18.08.2026 -- 55 Мин (Java - Code repeat && little refactor)
