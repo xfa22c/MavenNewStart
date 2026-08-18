@@ -8,7 +8,7 @@ public class ConfigWriter {
     public static void main(String[] args) {
         Properties props = new Properties();
 
-        props.setProperty("db.url", "jdbc:postgresql://localhost:5432/repeat_db");
+        props.setProperty("db.url", "jdbc:postgresql://localhost:5432/[YourDataBase]");
         props.setProperty("db.user", "postgres");
         props.setProperty("db.password", "[ДАННЫЕ УДАЛЕНЫ]");
 

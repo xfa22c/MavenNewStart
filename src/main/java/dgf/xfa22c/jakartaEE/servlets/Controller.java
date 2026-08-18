@@ -14,6 +14,9 @@ public class Controller extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp){
+
+        resp.setContentType("text/html; charset=UTF-8");
+
         String name = req.getParameter("name");
         if (name == null){
             name = "Gäst";

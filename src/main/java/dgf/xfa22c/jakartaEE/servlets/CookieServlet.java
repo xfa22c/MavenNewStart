@@ -46,7 +46,7 @@ public class CookieServlet extends HttpServlet {
             }
         }
 
-        resp.setContentType("text/html; charset=UTF-8");
+        resp.setContentType("text/html");
         try {
             resp.getWriter().println("Привет " + username);
 
@@ -54,7 +54,7 @@ public class CookieServlet extends HttpServlet {
                 resp.getWriter().println("<br><b style='color:red'>" + errorMessage + "</b>");
             }
         } catch (IOException e) {
-            System.out.println("Print name exception " + e.getMessage());
+            System.err.println("Print name exception " + e.getMessage());
         }
 
 
