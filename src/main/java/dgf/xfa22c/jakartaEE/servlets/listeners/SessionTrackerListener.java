@@ -25,6 +25,7 @@ public class SessionTrackerListener implements HttpSessionListener {
         System.out.printf("[SESSION END]   ID: %s | Активных пользователей: %d%n", sessionId, total);
     }
 
+    @SuppressWarnings("unused")
     public static int getActiveSessions(){
         return activeSessions.get();
     }
