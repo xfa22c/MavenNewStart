@@ -101,3 +101,5 @@
 18.08.2026 -- 55 Мин (Java - Code repeat && little refactor)
 19.08.2026 -- 35 Мин (Домашние задания по английскому)
 19.08.2026 -- 30 Мин (Шведский - Tidsuttryck, För .. sedan Och Om)
+20.08.2026 -- 140 Мин (Английский с репетитором)
+20.08.2026 -- 74 Мин (Java - Init, Parameter && Events (Listeners))
