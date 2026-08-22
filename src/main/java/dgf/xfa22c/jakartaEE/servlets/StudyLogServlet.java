@@ -66,7 +66,7 @@ public class StudyLogServlet extends HttpServlet {
         }
 
         try {
-            resp.sendRedirect("logs");
+            resp.sendRedirect("logs?pas=blankEnd");
         } catch (IOException e) {
             System.out.println("IO Redirect Exception  " + e.getMessage());
         }

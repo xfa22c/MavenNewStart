@@ -14,7 +14,7 @@
 </head>
 <body>
     <h2>Добавить новый лог</h2>
-    <form action="logs" method="post">
+    <form action="logs?pas=blankEnd" method="post">
       <p>
         <label>Тема урока: </label><br>
         <label>
