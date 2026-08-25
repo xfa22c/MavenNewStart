@@ -38,7 +38,7 @@ public class UserService {
         User user = em.find(User.class, id);
             if (user != null){
                 user.setName(newName);
-                em.merge(user);
+//                em.merge(user);
                 System.out.println("Updated User");
             }else{
                 System.out.println("User not Found");
