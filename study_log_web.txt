@@ -109,3 +109,5 @@
 22.08.2026 -- 60 Мин (Java - FilterChain, Global filter, Auth&UTF-8)
 24.08.2026 -- 75 Мин (Английские домашние задания)
 24.08.2026 -- 53 Мин (Шведский - Vägbeskrivning upprepning)
+25.08.2026 -- 120 Мин (Английский с репетитором)
+25.08.2026 -- 87 Мин (Java - ORM, JPA, JPQL, read my own code)
