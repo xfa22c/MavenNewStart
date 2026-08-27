@@ -113,3 +113,5 @@
 25.08.2026 -- 87 Мин (Java - ORM, JPA, JPQL, read my own code)
 26.08.2026 -- 55 Мин (Английские домашние задания)
 26.08.2026 -- 28 Мин (Шведский - Platsbeskrivning Upprepning)
+27.08.2026 -- 120 Мин (Английский с репетитором)
+27.08.2026 -- 78 Мин (Java - JPA, Mouse and MouseService)
