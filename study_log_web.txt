@@ -117,3 +117,5 @@
 27.08.2026 -- 78 Мин (Java - JPA, Mouse and MouseService)
 28.08.2026 -- 57 Мин (Английские домашние задания)
 28.08.2026 -- 30 Мин (Шведский - Hälsningnsfraser och presentation upprepning)
+29.08.2026 -- 125 Мин (Английский с репетитором)
+29.08.2026 -- 100 Мин (Java - JPA, DB Annotations, Service Example)
