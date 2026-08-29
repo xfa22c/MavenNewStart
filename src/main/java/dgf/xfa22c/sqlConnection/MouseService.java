@@ -16,13 +16,20 @@ public class MouseService {
     }
 
 
-    //Add new mouse, requires Object of class Mouse
+    //Add new mouse, requires Object of class Mouse and manufacturer ID
     @SuppressWarnings("unused")
-    public void addMouse(Mouse mouse){
+    public void addMouse(Mouse mouse, Long manufacturerId){
         em.getTransaction().begin();
-        em.persist(mouse);
-        em.getTransaction().commit();
-        System.out.println("Mouse has been added");
+        MiceManufacturer manufacturer = em.find(MiceManufacturer.class, manufacturerId);
+        if (manufacturer != null){
+            mouse.setMiceManufacturer(manufacturer);
+            em.persist(mouse);
+            em.getTransaction().commit();
+            System.out.println("Mouse has been added");
+        }else{
+            em.getTransaction().rollback();
+            System.err.println("MiceManufacturer not found");
+        }
     }
 
     //Update mouse. Requires (New)Object of class Mouse and ID
@@ -36,7 +43,7 @@ public class MouseService {
             mouse.setMaxAcceleration(newMouse.getMaxAcceleration());
             System.out.println("Mouse has been updated");
         }else{
-            System.out.println("This mouse doesn't exists");
+            System.err.println("This mouse doesn't exists");
         }
         em.getTransaction().commit();
     }
@@ -50,7 +57,7 @@ public class MouseService {
             em.remove(mouse);
             System.out.println("Mouse has been deleted");
         }else{
-            System.out.println("Mouse doesn't exists");
+            System.err.println("Mouse doesn't exists");
         }
         em.getTransaction().commit();
     }

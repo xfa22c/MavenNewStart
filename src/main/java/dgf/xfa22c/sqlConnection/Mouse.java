@@ -26,4 +26,10 @@ public class Mouse {
     @Column(nullable = false)
     private int pollingRate;
 
+    @ManyToOne
+    @JoinColumn(name = "miceManufacturer_id")
+    @ToString.Exclude
+    private MiceManufacturer miceManufacturer;
+
+
 }
