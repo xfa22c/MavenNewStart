@@ -121,3 +121,5 @@
 29.08.2026 -- 100 Мин (Java - JPA, DB Annotations, Service Example)
 01.09.2026 -- 75 Мин (English homework)
 01.09.2026 -- 40 Мин (Java - JPA code Repeat. )
+02.09.2026 -- 106 Мин (English Homework - Writing and Speaking practice)
+02.09.2026 -- 45 Мин (Swedish - väder och årstider)
