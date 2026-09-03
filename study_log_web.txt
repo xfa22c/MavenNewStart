@@ -123,3 +123,5 @@
 01.09.2026 -- 40 Мин (Java - JPA code Repeat. )
 02.09.2026 -- 106 Мин (English Homework - Writing and Speaking practice)
 02.09.2026 -- 45 Мин (Swedish - väder och årstider)
+03.09.2026 -- 120 Мин (English with tutor)
+03.09.2026 -- 108 Мин (Java - Bean Validation, mini-project)
