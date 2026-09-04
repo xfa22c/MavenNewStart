@@ -125,3 +125,5 @@
 02.09.2026 -- 45 Мин (Swedish - väder och årstider)
 03.09.2026 -- 120 Мин (English with tutor)
 03.09.2026 -- 108 Мин (Java - Bean Validation, mini-project)
+04.09.2026 -- 103 Мин (English homework)
+04.09.2026 -- 48 Мин (Swedish - En detaljerad studie av vädret)
