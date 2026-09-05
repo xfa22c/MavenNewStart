@@ -127,3 +127,5 @@
 03.09.2026 -- 108 Мин (Java - Bean Validation, mini-project)
 04.09.2026 -- 103 Мин (English homework)
 04.09.2026 -- 48 Мин (Swedish - En detaljerad studie av vädret)
+05.09.2026 -- 120 Мин (English with tutor)
+05.09.2026 -- 133 Мин (Java - Mini Jakrta Project completed (user web CRUD))
