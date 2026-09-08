@@ -131,3 +131,5 @@
 05.09.2026 -- 133 Мин (Java - Mini Jakrta Project completed (user web CRUD))
 07.09.2026 -- 95 Мин (English homework)
 07.09.2026 -- 30 Мин (Swedish - Att uttrycka tankar och minnen)
+08.09.2026 -- 120 Мин (English with tutor)
+08.09.2026 -- 59 Мин (Java - Code review, read my own code step by step)
