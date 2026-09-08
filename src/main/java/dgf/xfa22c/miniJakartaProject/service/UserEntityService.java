@@ -50,14 +50,12 @@ public class UserEntityService {
             throw new EntityNotFoundException();
         }else{
             em.remove(user);
+            em.getTransaction().commit();
         }
     }
 
     public UserEntity getUserByID(Long id){
-        em.getTransaction().begin();
-        UserEntity user = em.find(UserEntity.class, id);
-        em.getTransaction().commit();
-        return user;
+        return em.find(UserEntity.class, id);
     }
 
     public List<UserEntity> listUsers() {

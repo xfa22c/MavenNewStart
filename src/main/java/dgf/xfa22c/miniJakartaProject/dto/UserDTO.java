@@ -18,7 +18,7 @@ public class UserDTO {
     private String name;
 
     @Email(message = "Write down normal email address")
-    @NotNull(message = "Email can not be null")
+    @NotBlank(message = "Email can not be null")
     private String email;
 
     @Min(value = 18, message = "You must be at least 18")
