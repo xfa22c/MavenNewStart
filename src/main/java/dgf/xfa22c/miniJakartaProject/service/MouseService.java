@@ -61,6 +61,7 @@ public class MouseService {
         return em.createQuery("SELECT m FROM MouseEntity m", MouseEntity.class).getResultList();
     }
 
+    @SuppressWarnings("unused")
     public void close(){
         emf.close();
         em.close();
