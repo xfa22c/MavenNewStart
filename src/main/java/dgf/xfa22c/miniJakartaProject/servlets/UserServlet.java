@@ -37,8 +37,6 @@ public class UserServlet extends HttpServlet {
                     resp.sendRedirect(req.getContextPath() + "/usersweb/userslist?pas=blankEnd");
                 }
 
-
-
             } else {
                 resp.sendRedirect(req.getContextPath() + "/usersweb/userslist?pas=blankEnd");
             }
