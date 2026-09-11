@@ -135,3 +135,5 @@
 08.09.2026 -- 59 Мин (Java - Code review, read my own code step by step)
 09.09.2026 -- 83 Мин (English homework)
 09.09.2026 -- 47 Мин (Swedish - preteritum repetition)
+10.09.2026 -- 120 Мин (English with tutor)
+10.09.2026 -- 113 Мин (Java - Jakarta EE mini-project, Mouse CRUD)
