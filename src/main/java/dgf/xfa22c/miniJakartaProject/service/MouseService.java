@@ -63,8 +63,8 @@ public class MouseService {
 
     @SuppressWarnings("unused")
     public void close(){
-        emf.close();
         em.close();
+        emf.close();
     }
 
 }

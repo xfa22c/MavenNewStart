@@ -21,12 +21,10 @@ public class MouseDTO {
     @NotBlank
     private String sensor;
 
-    @NotNull
     @Min(5)
     @Max(150)
     private int maxAcceleration;
 
-    @NotNull
     @Min(125)
     @Max(16000)
     private int pollingRate;
