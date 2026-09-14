@@ -46,7 +46,7 @@ public class StudyLogServlet extends HttpServlet {
         String timeSpent = req.getParameter("timeSpent");
         if (topic != null && !topic.isBlank()){
             String currentDate = LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-            String logEntry = currentDate + " -- " + timeSpent + " Мин " + "(" + topic + ")\n";
+            String logEntry = currentDate + " -- " + timeSpent + " min " + "(" + topic + ")\n";
 
             try {
                 if (Files.exists(path) && Files.size(path) > 0){
