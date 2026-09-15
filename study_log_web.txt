@@ -144,3 +144,5 @@
 14.09.2026 -- 104 min (English Homework)
 14.09.2026 -- 39 min (Workout - shoulders)
 14.09.2026 -- 73 min (Swedish - Attitudinal adverbs, väl, nog, bara, ju, då, alltså)
+15.09.2026 -- 125 min (English with tutor)
+15.09.2026 -- 113 min (Java - Manufacturers, OneToMany, price, tier enum, MiceService refactor, ManufacturerServlet)
