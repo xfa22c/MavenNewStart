@@ -1,5 +1,6 @@
 package dgf.xfa22c.miniJakartaProject.entities;
 
+import dgf.xfa22c.miniJakartaProject.enums.MouseTier;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -31,4 +32,15 @@ public class MouseEntity {
 
     @Column(name = "pollingRate", nullable = false)
     private int pollingRate;
+
+    @Column(name = "price", nullable = false)
+    private int price;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private MouseTier tier;
+
+    @ManyToOne
+    @JoinColumn(name = "manufacturer_id", nullable = false)
+    private ManufacturerEntity manufacturer;
 }
