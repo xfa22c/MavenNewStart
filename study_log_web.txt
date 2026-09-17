@@ -148,3 +148,5 @@
 15.09.2026 -- 113 min (Java - Manufacturers, OneToMany, price, tier enum, MiceService refactor, ManufacturerServlet)
 16.09.2026 -- 96 min (English homework)
 16.09.2026 -- 59 min (Swedish - Partiklar: Ta på sig, ta av sig..)
+17.09.2026 -- 135 min (English with tutor)
+17.09.2026 -- 74 min (Java - completed mini-project: JSP pages, full CRUD with Manufacturer)
