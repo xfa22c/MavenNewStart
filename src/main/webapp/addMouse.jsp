@@ -1,102 +1,91 @@
-<%@ page contentType="text/html;charset=UTF-8"%>
-<!DOCTYPE html>
-<html lang="ru">
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Добавить мышку</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212;
-      color: #e0e0e0;
-      margin: 0;
-      padding: 40px;
-      display: flex;
-      justify-content: center;
-    }
-    .form-card {
-      width: 100%;
-      max-width: 480px;
-      background-color: #1e1e1e;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-    }
-    h2 {
-      margin-top: 0;
-      margin-bottom: 20px;
-      color: #fff;
-    }
-    .form-group {
-      margin-bottom: 16px;
-    }
-    label {
-      display: block;
-      margin-bottom: 6px;
-      color: #a0a0a0;
-      font-size: 14px;
-    }
-    input {
-      width: 100%;
-      padding: 10px 12px;
-      border-radius: 6px;
-      border: 1px solid #333;
-      background-color: #2a2a2a;
-      color: #fff;
-      box-sizing: border-box;
-      font-size: 14px;
-    }
-    input:focus {
-      outline: none;
-      border-color: #3b82f6;
-    }
-    .btn-submit {
-      width: 100%;
-      background-color: #3b82f6;
-      color: white;
-      border: none;
-      padding: 12px;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 15px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-    .btn-submit:hover { background-color: #2563eb; }
-    .btn-cancel {
-      display: block;
-      text-align: center;
-      margin-top: 12px;
-      color: #888;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .btn-cancel:hover { color: #bbb; }
-  </style>
+    <title>Add Mouse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 500px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.85;
+        }
+        .back {
+            display: inline-block;
+            margin-top: 15px;
+            color: #2196F3;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-<div class="form-card">
-  <h2>Новая мышка</h2>
-  <form action="${pageContext.request.contextPath}/Mouse/addMouse?pas=blankEnd" method="post">
-    <div class="form-group">
-      <label for="name">Название модели</label>
-      <input type="text" id="name" name="name" placeholder="например, Logitech G Pro X SuperLight" required />
-    </div>
-    <div class="form-group">
-      <label for="sensor">Модель сенсора</label>
-      <input type="text" id="sensor" name="sensor" placeholder="например, HERO 25K" required />
-    </div>
-    <div class="form-group">
-      <label for="maxAccel">Макс. ускорение (G)</label>
-      <input type="number" id="maxAccel" name="maxAccel" placeholder="50" min="5" max="150" required />
-    </div>
-    <div class="form-group">
-      <label for="pollingRate">Частота опроса (Hz)</label>
-      <input type="number" id="pollingRate" name="pollingRate" placeholder="1000" min="125" max="16000" required />
-    </div>
-    <button type="submit" class="btn-submit">Сохранить</button>
-    <a href="${pageContext.request.contextPath}/Mouse/mouseList?pas=blankEnd" class="btn-cancel">Отмена</a>
-  </form>
-</div>
+
+<h1>Add Mouse</h1>
+
+<form action="${pageContext.request.contextPath}/Mouse/addMouse?pas=blankEnd" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required minlength="3" maxlength="50">
+
+    <label for="sensor">Sensor</label>
+    <input type="text" id="sensor" name="sensor" required>
+
+    <label for="maxAccel">Max Acceleration</label>
+    <input type="number" id="maxAccel" name="maxAccel" required min="5" max="150">
+
+    <label for="pollingRate">Polling Rate</label>
+    <input type="number" id="pollingRate" name="pollingRate" required min="125" max="16000">
+
+    <label for="price">Price</label>
+    <input type="number" id="price" name="price" required min="1">
+
+    <label for="manufacturerId">Manufacturer</label>
+    <select id="manufacturerId" name="manufacturerId" required>
+        <option value="">-- Select manufacturer --</option>
+        <%--@elvariable id="manufacturers" type="java.util.List"--%>
+        <c:forEach items="${manufacturers}" var="m">
+            <option value="${m.id}">${m.name}</option>
+        </c:forEach>
+    </select>
+
+    <button type="submit">Add Mouse</button>
+</form>
+
+<a href="${pageContext.request.contextPath}/Mouse/mouseList?pas=blankEnd" class="back">← Back to list</a>
+
 </body>
 </html>

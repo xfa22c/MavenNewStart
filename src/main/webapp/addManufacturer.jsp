@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
-    <title>Edit Mouse</title>
+    <title>Add Manufacturer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
             font-weight: bold;
             color: #333;
         }
-        input, select {
+        input {
             width: 100%;
             padding: 8px;
             margin-top: 4px;
@@ -36,7 +36,7 @@
         button {
             margin-top: 15px;
             padding: 10px 16px;
-            background-color: #2196F3;
+            background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 4px;
@@ -55,30 +55,19 @@
 </head>
 <body>
 
-<h1>Edit Mouse</h1>
+<h1>Add Manufacturer</h1>
 
-<form action="${pageContext.request.contextPath}/Mouse/editMouse?pas=blankEnd" method="post">
-    <input type="hidden" name="id" value="${mouse.id}">
-
+<form action="${pageContext.request.contextPath}/Manufacturer/addManufacturer?pas=blankEnd" method="post">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" value="${mouse.name}" required minlength="3" maxlength="50">
+    <input type="text" id="name" name="name" required minlength="2" maxlength="50">
 
-    <label for="sensor">Sensor</label>
-    <input type="text" id="sensor" name="sensor" value="${mouse.sensor}" required>
+    <label for="yearOfCreation">Year of Creation</label>
+    <input type="number" id="yearOfCreation" name="yearOfCreation" required min="1800" max="2100">
 
-    <label for="maxAccel">Max Acceleration</label>
-    <input type="number" id="maxAccel" name="maxAccel" value="${mouse.maxAcceleration}" required min="5" max="150">
-
-    <label for="pollingRate">Polling Rate</label>
-    <input type="number" id="pollingRate" name="pollingRate" value="${mouse.pollingRate}" required min="125" max="16000">
-
-    <label for="price">Price</label>
-    <input type="number" id="price" name="price" value="${mouse.price}" required min="1">
-
-    <button type="submit">Update Mouse</button>
+    <button type="submit">Add Manufacturer</button>
 </form>
 
-<a href="${pageContext.request.contextPath}/Mouse/mouseList?pas=blankEnd" class="back">← Back to list</a>
+<a href="${pageContext.request.contextPath}/Manufacturer/listManufacturers?pas=blankEnd" class="back">← Back to list</a>
 
 </body>
 </html>
