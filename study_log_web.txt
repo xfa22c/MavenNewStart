@@ -150,3 +150,5 @@
 16.09.2026 -- 59 min (Swedish - Partiklar: Ta på sig, ta av sig..)
 17.09.2026 -- 135 min (English with tutor)
 17.09.2026 -- 74 min (Java - completed mini-project: JSP pages, full CRUD with Manufacturer)
+18.09.2026 -- 63 min (English homework (error analysis))
+18.09.2026 -- 80 min (Swedish - Partiklar (gå ut, in, upp, ner, med, fram, tillbaka, igenom))
