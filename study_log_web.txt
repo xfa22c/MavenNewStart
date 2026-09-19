@@ -152,3 +152,5 @@
 17.09.2026 -- 74 min (Java - completed mini-project: JSP pages, full CRUD with Manufacturer)
 18.09.2026 -- 63 min (English homework (error analysis))
 18.09.2026 -- 80 min (Swedish - Partiklar (gå ut, in, upp, ner, med, fram, tillbaka, igenom))
+19.09.2026 -- 130 min (English with tutor)
+19.09.2026 -- 40 min (Java - review)
