@@ -33,10 +33,10 @@ public class ManufacturerServlet extends HttpServlet {
                     req.setAttribute("manufacturer", manufacturer);
                     req.getRequestDispatcher("/editManufacturer.jsp").forward(req, resp);
                 }else{
-                    resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd?pas=blankEnd");
+                    resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd");
                 }
             }else{
-                resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd?pas=blankEnd");
+                resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd");
             }
 
         }catch(ServletException | IOException e) {
