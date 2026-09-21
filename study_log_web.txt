@@ -154,3 +154,5 @@
 18.09.2026 -- 80 min (Swedish - Partiklar (gå ut, in, upp, ner, med, fram, tillbaka, igenom))
 19.09.2026 -- 130 min (English with tutor)
 19.09.2026 -- 40 min (Java - review)
+21.09.2026 -- 42 min (English homework - Error analysis)
+21.09.2026 -- 65 min (Swedish - Partiklar, Komma (in, ut, fram, tillbaka, över, ihåg, åt, på))
