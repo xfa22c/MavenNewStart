@@ -41,3 +41,4 @@ build/
 DB_config.properties
 .idea/
 src/main/resources/META-INF/persistence.xml
+videos/
