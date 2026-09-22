@@ -51,20 +51,35 @@
             color: #2196F3;
             text-decoration: none;
         }
+        .error {
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff0f0;
+        }
     </style>
 </head>
 <body>
 
+<c:if test="${not empty error}">
+    <div class="error">${error}</div>
+</c:if>
+
 <h1>Edit Manufacturer</h1>
 
 <form action="${pageContext.request.contextPath}/Manufacturer/editManufacturer?pas=blankEnd" method="post">
-    <input type="hidden" name="id" value="${manufacturer.id}">
+    <input type="hidden" name="id" value="${empty param.id ? manufacturer.id : param.id}">
 
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" value="${manufacturer.name}" required minlength="2" maxlength="50">
+    <input type="text" id="name" name="name"
+           value="${empty param.name ? manufacturer.name : param.name}"
+           required minlength="2" maxlength="50">
 
     <label for="yearOfCreation">Year of Creation</label>
-    <input type="number" id="yearOfCreation" name="yearOfCreation" value="${manufacturer.yearOfCreation}" required min="1800" max="2100">
+    <input type="number" id="yearOfCreation" name="yearOfCreation"
+           value="${empty param.yearOfCreation ? manufacturer.yearOfCreation : param.yearOfCreation}"
+           required min="1800" max="2100">
 
     <button type="submit">Update Manufacturer</button>
 </form>

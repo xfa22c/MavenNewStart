@@ -51,34 +51,44 @@
             color: #2196F3;
             text-decoration: none;
         }
+        .error {
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff0f0;
+        }
     </style>
 </head>
 <body>
+
+<c:if test="${not empty error}">
+    <div class="error">${error}</div>
+</c:if>
 
 <h1>Add Mouse</h1>
 
 <form action="${pageContext.request.contextPath}/Mouse/addMouse?pas=blankEnd" method="post">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" required minlength="3" maxlength="50">
+    <input type="text" id="name" name="name" value="${param.name}" required minlength="3" maxlength="50">
 
     <label for="sensor">Sensor</label>
-    <input type="text" id="sensor" name="sensor" required>
+    <input type="text" id="sensor" name="sensor" value="${param.sensor}" required>
 
     <label for="maxAccel">Max Acceleration</label>
-    <input type="number" id="maxAccel" name="maxAccel" required min="5" max="150">
+    <input type="number" id="maxAccel" name="maxAccel" value="${param.maxAccel}" required min="5" max="150">
 
     <label for="pollingRate">Polling Rate</label>
-    <input type="number" id="pollingRate" name="pollingRate" required min="125" max="16000">
+    <input type="number" id="pollingRate" name="pollingRate" value="${param.pollingRate}" required min="125" max="16000">
 
     <label for="price">Price</label>
-    <input type="number" id="price" name="price" required min="1">
+    <input type="number" id="price" name="price" value="${param.price}" required min="1">
 
     <label for="manufacturerId">Manufacturer</label>
     <select id="manufacturerId" name="manufacturerId" required>
         <option value="">-- Select manufacturer --</option>
-        <%--@elvariable id="manufacturers" type="java.util.List"--%>
         <c:forEach items="${manufacturers}" var="m">
-            <option value="${m.id}">${m.name}</option>
+            <option value="${m.id}" ${m.id == param.manufacturerId ? 'selected' : ''}>${m.name}</option>
         </c:forEach>
     </select>
 

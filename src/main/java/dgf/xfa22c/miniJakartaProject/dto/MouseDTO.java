@@ -1,6 +1,5 @@
 package dgf.xfa22c.miniJakartaProject.dto;
 
-import dgf.xfa22c.miniJakartaProject.entities.ManufacturerEntity;
 import dgf.xfa22c.miniJakartaProject.entities.MouseEntity;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
@@ -33,7 +32,6 @@ public class MouseDTO {
     @Min(1)
     private int price;
 
-    @NotNull
     private Long manufacturerId;
 
     public MouseEntity toMouse(){

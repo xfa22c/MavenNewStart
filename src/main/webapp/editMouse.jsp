@@ -51,29 +51,50 @@
             color: #2196F3;
             text-decoration: none;
         }
+        .error {
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff0f0;
+        }
     </style>
 </head>
 <body>
 
+<c:if test="${not empty error}">
+    <div class="error">${error}</div>
+</c:if>
+
 <h1>Edit Mouse</h1>
 
 <form action="${pageContext.request.contextPath}/Mouse/editMouse?pas=blankEnd" method="post">
-    <input type="hidden" name="id" value="${mouse.id}">
+    <input type="hidden" name="id" value="${empty param.id ? mouse.id : param.id}">
 
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" value="${mouse.name}" required minlength="3" maxlength="50">
+    <input type="text" id="name" name="name"
+           value="${empty param.name ? mouse.name : param.name}"
+           required minlength="3" maxlength="50">
 
     <label for="sensor">Sensor</label>
-    <input type="text" id="sensor" name="sensor" value="${mouse.sensor}" required>
+    <input type="text" id="sensor" name="sensor"
+           value="${empty param.sensor ? mouse.sensor : param.sensor}"
+           required>
 
     <label for="maxAccel">Max Acceleration</label>
-    <input type="number" id="maxAccel" name="maxAccel" value="${mouse.maxAcceleration}" required min="5" max="150">
+    <input type="number" id="maxAccel" name="maxAccel"
+           value="${empty param.maxAccel ? mouse.maxAcceleration : param.maxAccel}"
+           required min="5" max="150">
 
     <label for="pollingRate">Polling Rate</label>
-    <input type="number" id="pollingRate" name="pollingRate" value="${mouse.pollingRate}" required min="125" max="16000">
+    <input type="number" id="pollingRate" name="pollingRate"
+           value="${empty param.pollingRate ? mouse.pollingRate : param.pollingRate}"
+           required min="125" max="16000">
 
     <label for="price">Price</label>
-    <input type="number" id="price" name="price" value="${mouse.price}" required min="1">
+    <input type="number" id="price" name="price"
+           value="${empty param.price ? mouse.price : param.price}"
+           required min="1">
 
     <button type="submit">Update Mouse</button>
 </form>

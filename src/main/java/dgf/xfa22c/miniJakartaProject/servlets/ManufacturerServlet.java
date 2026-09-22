@@ -16,10 +16,9 @@ public class ManufacturerServlet extends HttpServlet {
     private final MiceService ms = new MiceService();
 
     @Override
-    public void doGet(HttpServletRequest req, HttpServletResponse resp){
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
         String path = req.getPathInfo();
 
-        try {
             if (path == null || "/listManufacturers".equals(path)){
                 req.setAttribute("manufacturers", ms.listManufacturers());
                 req.getRequestDispatcher("/listManufacturers.jsp").forward(req, resp);
@@ -39,17 +38,12 @@ public class ManufacturerServlet extends HttpServlet {
                 resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd");
             }
 
-        }catch(ServletException | IOException e) {
-            System.err.println("Forward exception doGet " + e.getMessage());
-        }
     }
 
     @Override
-    public void doPost(HttpServletRequest req, HttpServletResponse resp){
-
+    public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         String path = req.getPathInfo();
 
-        try {
             if ("/deleteManufacturer".equals(path)) {
                 String id = req.getParameter("id");
                 if (id != null && !id.isBlank()) {
@@ -59,45 +53,46 @@ public class ManufacturerServlet extends HttpServlet {
                 resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd");
                 return;
             }
-        }catch (IOException e) {
-            System.err.println("Redirect exception (delete) " + e.getMessage());
-        }
 
         String name = req.getParameter("name");
         String yearOfCreation = req.getParameter("yearOfCreation");
-        if (yearOfCreation == null) {
-            System.err.println("Year of Creation is null");
-            throw new IllegalArgumentException("Year of Creation is null");
-        }
-        int year;
-        try {
-            year = Integer.parseInt(yearOfCreation);
-
-        }catch (NumberFormatException e){
-            System.err.println("Year of creation is not number");
-            throw new IllegalArgumentException("Year must be a number");
-        }
 
         ManufacturerDTO dto = new ManufacturerDTO();
         dto.setName(name);
-        dto.setYearOfCreation(year);
-
-        if ("/addManufacturer".equals(path)){
-            ms.addManufacturer(dto);
-        } else if ("/editManufacturer".equals(path)) {
-            String id = req.getParameter("id");
-            if (id != null && !id.isBlank()){
-                Long lId = Long.parseLong(id);
-                ms.updateManufacturer(dto, lId);
-            }
-        }
 
         try {
+            if (yearOfCreation == null) {
+                throw new IllegalArgumentException("Year of Creation is null");
+            }
+            dto.setYearOfCreation(Integer.parseInt(yearOfCreation));
+
+            if ("/addManufacturer".equals(path)){
+                ms.addManufacturer(dto);
+            } else if ("/editManufacturer".equals(path)) {
+                String id = req.getParameter("id");
+                if (id != null && !id.isBlank()){
+                    Long lId = Long.parseLong(id);
+                    ms.updateManufacturer(dto, lId);
+                }
+            }
+
             resp.sendRedirect(req.getContextPath() + "/Manufacturer/listManufacturers?pas=blankEnd");
-        } catch (IOException e) {
-            System.err.println("Redirect exception " + e.getMessage());
+        }catch (NumberFormatException e){
+            forwardWithError(req, resp, path, "All numeric fields must contain numbers");
+        }catch (IllegalArgumentException e){
+            forwardWithError(req, resp, path, e.getMessage());
         }
 
+    }
+
+    private void forwardWithError(HttpServletRequest req, HttpServletResponse resp, String path, String message)
+            throws ServletException, IOException {
+        req.setAttribute("error", message);
+        if ("/editManufacturer".equals(path)){
+            req.getRequestDispatcher("/editManufacturer.jsp").forward(req, resp);
+        }else{
+            req.getRequestDispatcher("/addManufacturer.jsp").forward(req, resp);
+        }
     }
 
 }

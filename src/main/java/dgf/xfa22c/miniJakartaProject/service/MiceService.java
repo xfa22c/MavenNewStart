@@ -8,17 +8,25 @@ import dgf.xfa22c.miniJakartaProject.enums.MouseTier;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
+import jakarta.validation.ValidatorFactory;
 
 import java.util.List;
+import java.util.Set;
 
 public class MiceService {
 
     private final EntityManagerFactory emf;
     private final EntityManager em;
+    private final Validator validator;
 
     public MiceService(){
         emf = Persistence.createEntityManagerFactory("myPU");
         em = emf.createEntityManager();
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        this.validator = factory.getValidator();
     }
 
     public void addMouse(MouseDTO mouseDTO){
@@ -26,8 +34,9 @@ public class MiceService {
             System.err.println("Mouse DTO is null (add)");
             throw new IllegalArgumentException("Mouse DTO is null (add)");
         }else{
-            if (mouseDTO.getPrice() < 1) {
-                throw new IllegalArgumentException("Price must be positive");
+            Set<ConstraintViolation<MouseDTO>> violations = validator.validate(mouseDTO);
+            if (!violations.isEmpty()){
+                throw new IllegalArgumentException("Validation failed (add mouse) - " + buildMessage(violations));
             }
             em.getTransaction().begin();
             ManufacturerEntity manufacturer = em.find(ManufacturerEntity.class, mouseDTO.getManufacturerId());
@@ -50,6 +59,10 @@ public class MiceService {
             System.err.println("Manufacturer DTO is null (add)");
             throw new IllegalArgumentException("Manufacturer DTO is null (add method)");
         }else{
+            Set<ConstraintViolation<ManufacturerDTO>> violations = validator.validate(manufacturerDTO);
+            if (!violations.isEmpty()){
+                throw new IllegalArgumentException("Validation failed (add manufacturer) - " + buildMessage(violations));
+            }
             em.getTransaction().begin();
             ManufacturerEntity manufacturer = manufacturerDTO.toManufacturer();
             em.persist(manufacturer);
@@ -62,15 +75,16 @@ public class MiceService {
             System.err.println("Mouse DTO is null (update)");
             throw new IllegalArgumentException("Mouse DTO is null (update)");
         }else {
-            if (dto.getPrice() < 1) {
-                throw new IllegalArgumentException("Price must be positive");
+            Set<ConstraintViolation<MouseDTO>> violations = validator.validate(dto);
+            if (!violations.isEmpty()){
+                throw new IllegalArgumentException("Validation failed (edit mouse) - " + buildMessage(violations));
             }
             em.getTransaction().begin();
             MouseEntity mouse = em.find(MouseEntity.class, id);
             if (mouse == null) {
                 System.err.println("Mouse not found, rollback (update)");
                 em.getTransaction().rollback();
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("Mouse not found (update)");
             } else {
                 mouse.setName(dto.getName());
                 mouse.setSensor(dto.getSensor());
@@ -88,6 +102,10 @@ public class MiceService {
             System.err.println("Manufacturer DTO is null");
             throw new IllegalArgumentException("Manufacturer DTO is null (update method)");
         }else{
+            Set<ConstraintViolation<ManufacturerDTO>> violations = validator.validate(dto);
+            if (!violations.isEmpty()){
+                throw new IllegalArgumentException("Validation failed (edit manufacturer) - " + buildMessage(violations));
+            }
             em.getTransaction().begin();
             ManufacturerEntity manufacturer = em.find(ManufacturerEntity.class, id);
             if (manufacturer == null){
@@ -108,7 +126,7 @@ public class MiceService {
         if (mouse == null){
             System.err.println("Mouse not found, rollback (delete)");
             em.getTransaction().rollback();
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Mouse not found (delete)");
         }else{
             em.remove(mouse);
             em.getTransaction().commit();
@@ -151,6 +169,17 @@ public class MiceService {
 
     public List<ManufacturerEntity> listManufacturers(){
         return em.createQuery("SELECT man FROM ManufacturerEntity man", ManufacturerEntity.class).getResultList();
+    }
+
+    private String buildMessage(Set<? extends ConstraintViolation<?>> violations){
+        StringBuilder sb = new StringBuilder();
+        for (ConstraintViolation<?> v: violations){
+            sb.append(v.getPropertyPath())
+                    .append(": ")
+                    .append(v.getMessage())
+                    .append("; ");
+        }
+        return sb.toString();
     }
 
     @SuppressWarnings("unused")

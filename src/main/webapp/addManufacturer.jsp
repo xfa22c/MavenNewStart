@@ -51,18 +51,33 @@
             color: #2196F3;
             text-decoration: none;
         }
+        .error {
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff0f0;
+        }
     </style>
 </head>
 <body>
+
+<c:if test="${not empty error}">
+    <div class="error">${error}</div>
+</c:if>
 
 <h1>Add Manufacturer</h1>
 
 <form action="${pageContext.request.contextPath}/Manufacturer/addManufacturer?pas=blankEnd" method="post">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+    <input type="text" id="name" name="name"
+           value="${param.name}"
+           required minlength="2" maxlength="50">
 
     <label for="yearOfCreation">Year of Creation</label>
-    <input type="number" id="yearOfCreation" name="yearOfCreation" required min="1800" max="2100">
+    <input type="number" id="yearOfCreation" name="yearOfCreation"
+           value="${param.yearOfCreation}"
+           required min="1800" max="2100">
 
     <button type="submit">Add Manufacturer</button>
 </form>
