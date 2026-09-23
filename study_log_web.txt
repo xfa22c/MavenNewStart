@@ -158,3 +158,5 @@
 21.09.2026 -- 65 min (Swedish - Partiklar, Komma (in, ut, fram, tillbaka, över, ihåg, åt, på))
 22.09.2026 -- 135 min (English with tutor)
 22.09.2026 -- 118 min (Java - Bean Validation, refactor (Servlets && JSP))
+23.09.2026 -- 48 min (English homework)
+23.09.2026 -- 67 min (Swedish - Partiklar (Sätta - på, sig, igång, upp, ner, fram, tillbaka, fast))
