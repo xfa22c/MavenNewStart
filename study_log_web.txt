@@ -160,3 +160,5 @@
 22.09.2026 -- 118 min (Java - Bean Validation, refactor (Servlets && JSP))
 23.09.2026 -- 48 min (English homework)
 23.09.2026 -- 67 min (Swedish - Partiklar (Sätta - på, sig, igång, upp, ner, fram, tillbaka, fast))
+25.09.2026 -- 56 min (English homework)
+25.09.2026 -- 52 min (Swedish - Partiklar (hålla med, kvar, ut, av, till, upp, fast, inne))
