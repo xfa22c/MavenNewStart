@@ -162,3 +162,5 @@
 23.09.2026 -- 67 min (Swedish - Partiklar (Sätta - på, sig, igång, upp, ner, fram, tillbaka, fast))
 25.09.2026 -- 56 min (English homework)
 25.09.2026 -- 52 min (Swedish - Partiklar (hålla med, kvar, ut, av, till, upp, fast, inne))
+26.09.2026 -- 125 min (English with tutor)
+26.09.2026 -- 50 min (Java - review, collections, Generics, exceptions, OOP)
