@@ -166,3 +166,5 @@
 26.09.2026 -- 50 min (Java - review, collections, Generics, exceptions, OOP)
 28.09.2026 -- 42 min (English homework - Listening)
 28.09.2026 -- 40 min (Swedish - Partiklar: göra om, klart, bort, av, upp, ner, sig till, vid)
+29.09.2026 -- 125 min (English with tutor (listening && speaking test))
+29.09.2026 -- 66 min (Java - Review (Java Core, OOP, Access modifiers, reflection))
