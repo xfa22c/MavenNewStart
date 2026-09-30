@@ -168,3 +168,5 @@
 28.09.2026 -- 40 min (Swedish - Partiklar: göra om, klart, bort, av, upp, ner, sig till, vid)
 29.09.2026 -- 125 min (English with tutor (listening && speaking test))
 29.09.2026 -- 66 min (Java - Review (Java Core, OOP, Access modifiers, reflection))
+2026-09-30 -- 65 min (English homework - reading test)
+2026-09-30 -- 67 min (Swedish - Partiklar: ställa + Lätt Svenska med Oskar)
