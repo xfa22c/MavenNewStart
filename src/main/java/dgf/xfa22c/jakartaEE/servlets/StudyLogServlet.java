@@ -45,7 +45,7 @@ public class StudyLogServlet extends HttpServlet {
         String topic = req.getParameter("topic");
         String timeSpent = req.getParameter("timeSpent");
         if (topic != null && !topic.isBlank()){
-            String currentDate = LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+            String currentDate = LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
             String logEntry = currentDate + " -- " + timeSpent + " min " + "(" + topic + ")\n";
 
             try {
