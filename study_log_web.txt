@@ -172,3 +172,5 @@
 2026-09-30 -- 67 min (Swedish - Partiklar: ställa + Lätt Svenska med Oskar)
 2026-10-01 -- 125 min (English with tutor - Reading test)
 2026-10-01 -- 49 min (Java - OOP repeat (Reflection, static && final, Encapsulation && Polymorphism))
+2026-10-02 -- 55 min (English homework)
+2026-10-02 -- 33 min (Swedish - Partiklar: lägga in, upp, ner, till, fram, av, om, sig)
