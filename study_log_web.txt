@@ -174,3 +174,5 @@
 2026-10-01 -- 49 min (Java - OOP repeat (Reflection, static && final, Encapsulation && Polymorphism))
 2026-10-02 -- 55 min (English homework)
 2026-10-02 -- 33 min (Swedish - Partiklar: lägga in, upp, ner, till, fram, av, om, sig)
+2026-10-03 -- 120 min (English with tutor (Listening practice))
+2026-10-03 -- 55 min (Java - Review Lambda, Functional Interface && Enum)
