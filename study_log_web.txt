@@ -182,3 +182,5 @@
 2026-10-06 -- 39 min (Java - Review: Date, Exception && try-catch-finally, Wrapper classes)
 2026-10-07 -- 42 min (English homework)
 2026-10-07 -- 62 min (Swedish - Partiklar Gå upprepning och läsa nyheter)
+2026-10-08 -- 120 min (English with tutor - speaking && horror movie)
+2026-10-08 -- 31 min (Java - Review: Exceptions, try-catch-finally deeper && custom exceptions)
