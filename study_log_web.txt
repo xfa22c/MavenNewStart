@@ -184,3 +184,8 @@
 2026-10-07 -- 62 min (Swedish - Partiklar Gå upprepning och läsa nyheter)
 2026-10-08 -- 120 min (English with tutor - speaking && horror movie)
 2026-10-08 -- 31 min (Java - Review: Exceptions, try-catch-finally deeper && custom exceptions)
+2026-10-09 -- (A day without any internet)
+2026-10-09 -- 62 min (English homework)
+2026-10-09 -- 49 min (Swedish - Partiklar: Komma upprepning)
+2026-10-10 -- 120 min (English with tutor)
+2026-10-10 -- 70 min (Java - Review: Files(I/O), NIO, NIO.2 — Path, Files CRUD, Channels, Buffers)
