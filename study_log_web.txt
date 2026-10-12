@@ -189,3 +189,5 @@
 2026-10-09 -- 49 min (Swedish - Partiklar: Komma upprepning)
 2026-10-10 -- 120 min (English with tutor)
 2026-10-10 -- 70 min (Java - Review: Files(I/O), NIO, NIO.2 — Path, Files CRUD, Channels, Buffers)
+2026-10-12 -- 63 min (English homework - error analysis : reading && listening)
+2026-10-12 -- 70 min (Swedish - Partiklar: Ställa upprepning)
