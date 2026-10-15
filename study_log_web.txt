@@ -195,3 +195,5 @@
 2026-10-13 -- 39 min (Java - Review: equals\hashcode, String immutable, Exceptions, Collections && Generics)
 2026-10-14 -- 46 min (English homework (Listening))
 2026-10-14 -- 68 min (Swedish - Hörförståelse: Tecknad film och analys av fraser)
+2026-10-15 -- 115 min (English with tutor - Writing practice)
+2026-10-15 -- 50 min (Java - Review: primitives/autoboxing, String pool/intern, StringBuilder && StringBuffer, switch (new syntax), yield, pattern matching)
