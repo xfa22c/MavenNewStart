@@ -197,3 +197,5 @@
 2026-10-14 -- 68 min (Swedish - Hörförståelse: Tecknad film och analys av fraser)
 2026-10-15 -- 115 min (English with tutor - Writing practice)
 2026-10-15 -- 50 min (Java - Review: primitives/autoboxing, String pool/intern, StringBuilder && StringBuffer, switch (new syntax), yield, pattern matching)
+2026-10-16 -- 93 min (English homework - listening && reading)
+2026-10-16 -- 91 min (Swedish - Beskrivning av omgivningen och mig själv)
