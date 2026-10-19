@@ -201,3 +201,5 @@
 2026-10-16 -- 91 min (Swedish - Beskrivning av omgivningen och mig själv)
 2026-10-17 -- 125 min (English with tutor - listening && reading test)
 2026-10-17 -- 42 min (Java - Review: final/static, initialization & main, Polymorphism (overloading/overriding))
+2026-10-19 -- 45 min (English homework - Listening)
+2026-10-19 -- 45 min (Swedish - Repetition: partiklar, artiklar, hörförståelse)
