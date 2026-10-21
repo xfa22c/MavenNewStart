@@ -205,3 +205,5 @@
 2026-10-19 -- 45 min (Swedish - Repetition: partiklar, artiklar, hörförståelse)
 2026-10-20 -- 00 min (English with tutor - Skipped because I was ill)
 2026-10-20 -- 40 min (Java - Review: final, static, polymorphism, primitives, access modifiers, constructors)
+2026-10-21 -- 53 min (English homework - Listening)
+2026-10-21 -- 42 min (Swedish - Repetition: partiklar (ta, gå), hörförståelse (Lätt svenska med Oskar))
