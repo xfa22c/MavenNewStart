@@ -207,3 +207,5 @@
 2026-10-20 -- 40 min (Java - Review: final, static, polymorphism, primitives, access modifiers, constructors)
 2026-10-21 -- 53 min (English homework - Listening)
 2026-10-21 -- 42 min (Swedish - Repetition: partiklar (ta, gå), hörförståelse (Lätt svenska med Oskar))
+2026-10-22 -- 120 min (English with tutor)
+2026-10-22 -- 42 min (Java - Review: equals/hashCode, ConcurrentHashMap, Objects utility)
