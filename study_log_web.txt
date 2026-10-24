@@ -211,3 +211,5 @@
 2026-10-22 -- 42 min (Java - Review: equals/hashCode, ConcurrentHashMap, Objects utility)
 2026-10-23 -- 83 min (English homework - Listening, Reading)
 2026-10-23 -- 39 min (Swedish - Repetition: partiklar, läsförståelse (8 Sidor))
+2026-10-24 -- 120 min (English with tutor)
+2026-10-24 -- 33 min (Java - Review: equals/hashCode, ConcurrentHashMap, Objects; New: String.format, String.join, string performance pitfalls)
