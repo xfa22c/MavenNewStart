@@ -215,3 +215,5 @@
 2026-10-24 -- 33 min (Java - Review: equals/hashCode, ConcurrentHashMap, Objects; New: String.format, String.join, string performance pitfalls)
 2026-10-26 -- 47 min (English homework)
 2026-10-26 -- 34 min (Swedish - Repetition: partiklar i meningar, verb forms & word order)
+2026-10-27 -- 140 min (English with tutor)
+2026-10-27 -- 35 min (Java - Review: String, ConcurrentHashMap; New: Optional, pitfalls)
