@@ -219,3 +219,5 @@
 2026-10-27 -- 35 min (Java - Review: String, ConcurrentHashMap; New: Optional, pitfalls)
 2026-10-28 -- 51 min (English homework - Listening new best score: 34/35)
 2026-10-28 -- 60 min (Swedish - Exempel på vardagliga situationer && tid)
+2026-10-29 -- 110 min (English with tutor)
+2026-10-29 -- 78 min (Java - Review: Optional, loops, JDBC code review, coding practice on legacy repository)
