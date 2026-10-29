@@ -204,9 +204,7 @@ public class JDBCTest {
                 conn.setAutoCommit(true);
             }
 
-
         }
-
 
 
 
