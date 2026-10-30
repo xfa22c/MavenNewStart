@@ -221,3 +221,5 @@
 2026-10-28 -- 60 min (Swedish - Exempel på vardagliga situationer && tid)
 2026-10-29 -- 110 min (English with tutor)
 2026-10-29 -- 78 min (Java - Review: Optional, loops, JDBC code review, coding practice on legacy repository)
+2026-10-30 -- 50 min (English homework - Writing practice, Listening materials were broken)
+2026-10-30 -- 35 min (Swedish - vardagliga situationer (gränskontroll, bostad))
