@@ -223,3 +223,5 @@
 2026-10-29 -- 78 min (Java - Review: Optional, loops, JDBC code review, coding practice on legacy repository)
 2026-10-30 -- 50 min (English homework - Writing practice, Listening materials were broken)
 2026-10-30 -- 35 min (Swedish - vardagliga situationer (gränskontroll, bostad))
+2026-10-31 -- 138 min (English with tutor - Final lesson)
+2026-10-31 -- 54 min (Java - Review: Optional, loops; New: Math, arrays, jagged arrays, Random, BigDecimal)
