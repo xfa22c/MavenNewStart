@@ -225,3 +225,5 @@
 2026-10-30 -- 35 min (Swedish - vardagliga situationer (gränskontroll, bostad))
 2026-10-31 -- 138 min (English with tutor - Final lesson)
 2026-10-31 -- 54 min (Java - Review: Optional, loops; New: Math, arrays, jagged arrays, Random, BigDecimal)
+2026-11-02 -- 70 min (English practice - Listening (youtube videos))
+2026-11-02 -- 42 min (Swedish - Repetition: partiklar, verb former, läsförståelse (8 Sidor))
