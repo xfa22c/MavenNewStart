@@ -227,3 +227,5 @@
 2026-10-31 -- 54 min (Java - Review: Optional, loops; New: Math, arrays, jagged arrays, Random, BigDecimal)
 2026-11-02 -- 70 min (English practice - Listening (youtube videos))
 2026-11-02 -- 42 min (Swedish - Repetition: partiklar, verb former, läsförståelse (8 Sidor))
+2026-11-03 -- 89 min (English practice - Watching videos & Reading (GeeksforGeeks - JDK, JRE, JVM))
+2026-11-03 -- 48 min (Java - Review: JDK/JRE/JVM, arrays; New: Lambda expressions, Functional Interfaces, AtomicInteger, Syntax pitfalls)
