@@ -231,3 +231,5 @@
 2026-11-03 -- 48 min (Java - Review: JDK/JRE/JVM, arrays; New: Lambda expressions, Functional Interfaces, AtomicInteger, Syntax pitfalls)
 2026-11-04 -- 52 min (English practice - Speaking (answering questions, error analysis))
 2026-11-04 -- 52 min (Swedish - Enkla meningar: alltid/ofta/aldrig, partiklar)
+2026-11-05 -- 57 min (English practice - Writing (Task 1.1, 1.2, Task 2))
+2026-11-05 -- 40 min (Java - Review: JDK/JRE/JVM, Functional Interfaces; New: Enum, methods, inheritance, pitfalls)
