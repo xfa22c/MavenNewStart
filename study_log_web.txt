@@ -233,3 +233,7 @@
 2026-11-04 -- 52 min (Swedish - Enkla meningar: alltid/ofta/aldrig, partiklar)
 2026-11-05 -- 57 min (English practice - Writing (Task 1.1, 1.2, Task 2))
 2026-11-05 -- 40 min (Java - Review: JDK/JRE/JVM, Functional Interfaces; New: Enum, methods, inheritance, pitfalls)
+2026-11-06 -- 60 min (English practice - Reading tech articles (String Pool, CharSequence, intern, GC))
+2026-11-06 -- 45 min (Swedish - Mat och dryck: vokabulär, enkla meningar, hörförståelse)
+2026-11-07 -- 40 min (English practice - Reading tech articles (String, Serializable, Charsets))
+2026-11-07 -- 67 min (Java - Review: equals/hashCode, Generics; New: Date/Time API, immutability, memory safety)
