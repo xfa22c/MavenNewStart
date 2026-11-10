@@ -239,3 +239,5 @@
 2026-11-07 -- 67 min (Java - Review: equals/hashCode, Generics; New: Date/Time API, immutability, memory safety)
 2026-11-09 -- 44 min (English practice - Reading tech articles (Exceptions, finalize, GC, Threads))
 2026-11-09 -- 67 min (Swedish - Verb & Tider, läsförståelse (8 Sidor))
+2026-11-10 -- 40 min (English practice - Reading tech articles (GeeksforGeeks: Nested/Marker Interfaces))
+2026-11-10 -- 55 min (Java - Exceptions: throw/throws, pitfalls, Checked/Unchecked strategy)
