@@ -241,3 +241,5 @@
 2026-11-09 -- 67 min (Swedish - Verb & Tider, läsförståelse (8 Sidor))
 2026-11-10 -- 40 min (English practice - Reading tech articles (GeeksforGeeks: Nested/Marker Interfaces))
 2026-11-10 -- 55 min (Java - Exceptions: throw/throws, pitfalls, Checked/Unchecked strategy)
+2026-11-11 -- 66 min (English practice - Speaking preparation: exam questions, filling phrases)
+2026-11-11 -- 66 min (Swedish - Frågor och svar (V2, var/vart), hörförståelse (Brandman Sam))
