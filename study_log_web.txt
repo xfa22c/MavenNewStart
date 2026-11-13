@@ -245,3 +245,5 @@
 2026-11-11 -- 66 min (Swedish - Frågor och svar (V2, var/vart), hörförståelse (Brandman Sam))
 2026-11-12 -- 30 min (English - Passed CEFR exam, speaking)
 2026-11-12 -- 45 min (Java - Review: Exceptions, Enum, Date/Time; New: Files NIO.2, pitfalls, Charsets)
+2026-11-13 -- 35 min (English practice - Reading tech articles (Chained Exceptions, getCause, initCause))
+2026-11-13 -- 57 min (Swedish - På apoteket, läsförståelse (8 Sidor: Nvidia, spion, företag))
