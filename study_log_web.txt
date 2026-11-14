@@ -247,3 +247,5 @@
 2026-11-12 -- 45 min (Java - Review: Exceptions, Enum, Date/Time; New: Files NIO.2, pitfalls, Charsets)
 2026-11-13 -- 35 min (English practice - Reading tech articles (Chained Exceptions, getCause, initCause))
 2026-11-13 -- 57 min (Swedish - På apoteket, läsförståelse (8 Sidor: Nvidia, spion, företag))
+2026-11-14 -- 39 min (English practice - Reading tech articles (Java I/O, InputStream))
+2026-11-14 -- 52 min (Java - Review: InputStream, Files; New: Records, Sealed Classes, Pattern Matching, Domain Exceptions)
