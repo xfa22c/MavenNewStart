@@ -249,3 +249,5 @@
 2026-11-13 -- 57 min (Swedish - På apoteket, läsförståelse (8 Sidor: Nvidia, spion, företag))
 2026-11-14 -- 39 min (English practice - Reading tech articles (Java I/O, InputStream))
 2026-11-14 -- 52 min (Java - Review: InputStream, Files; New: Records, Sealed Classes, Pattern Matching, Domain Exceptions)
+2026-11-16 -- 35 min (English practice - Reading tech articles (ClassLoader, Interview Questions))
+2026-11-16 -- 51 min (Swedish - Possessiva pronomen, hörförståelse (Lätt svenska med Oskar))
