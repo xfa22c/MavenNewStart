@@ -251,3 +251,5 @@
 2026-11-14 -- 52 min (Java - Review: InputStream, Files; New: Records, Sealed Classes, Pattern Matching, Domain Exceptions)
 2026-11-16 -- 35 min (English practice - Reading tech articles (ClassLoader, Interview Questions))
 2026-11-16 -- 51 min (Swedish - Possessiva pronomen, hörförståelse (Lätt svenska med Oskar))
+2026-11-17 -- 41 min (English practice - Reading & writing tech topics (Records, Sealed Classes, vocabulary))
+2026-11-17 -- 64 min (Java - New: Reflection API, Annotations, RetentionPolicy, pitfalls)
