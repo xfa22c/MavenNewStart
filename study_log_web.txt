@@ -257,3 +257,5 @@
 2026-11-18 -- 67 min (Swedish - I mataffären: 10 meningar, V2-regeln, BIFF-regeln, partikelverb, dubbel bestämdhet)
 2026-11-19 -- 68 min (English practice - Technical Q&A: String immutability, equals/hashCode contract, Collections memory, Exception handling)
 2026-11-19 -- 70 min (Java - Maven: architecture, .m2 repo, dependency scopes (provided), Lombok AST hack, Faker, 4 pitfalls)
+2026-11-20 -- 38 min (English practice - Q&A Maven scopes, Lombok AST modification, JPA @Data recursion traps)
+2026-11-20 -- 80 min (Swedish - En dag i mitt drömhus: ordföljd V2, presens, reflexiva verb)
