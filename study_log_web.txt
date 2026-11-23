@@ -261,3 +261,5 @@
 2026-11-20 -- 80 min (Swedish - En dag i mitt drömhus: ordföljd V2, presens, reflexiva verb)
 2026-11-21 -- 64 min (Java Core & English - Q&A: HashMap collision & key contract, Stack vs Heap, Pass-by-value mechanics)
 2026-11-21 -- 48 min (Java - JSON, Gson & Jackson: Type Erasure hack, unknown fields crash, DTO recursion breaking)
+2026-11-23 -- 40 min (English & Java practice - Exception traps: finally-return, exception swallow, Throwable & Fail-Fast, finalize deprecation)
+2026-11-23 -- 79 min (Swedish - Tågresa & kollektivtrafik: PÅ vs I, indirekta frågor, ordföljd)
