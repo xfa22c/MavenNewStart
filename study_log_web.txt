@@ -263,3 +263,5 @@
 2026-11-21 -- 48 min (Java - JSON, Gson & Jackson: Type Erasure hack, unknown fields crash, DTO recursion breaking)
 2026-11-23 -- 40 min (English & Java practice - Exception traps: finally-return, exception swallow, Throwable & Fail-Fast, finalize deprecation)
 2026-11-23 -- 79 min (Swedish - Tågresa & kollektivtrafik: PÅ vs I, indirekta frågor, ordföljd)
+2026-11-24 -- 54 min (English Q&A practice - ArrayList vs LinkedList CPU cache locality, HashMap mutable key & equals/hashCode contract)
+2026-11-24 -- 63 min (Java URL & URLConnection - HTTP/HTTPS, status codes 2xx-5xx, getErrorStream, User-Agent pitfall & timeouts)
