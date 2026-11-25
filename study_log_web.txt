@@ -265,3 +265,5 @@
 2026-11-23 -- 79 min (Swedish - Tågresa & kollektivtrafik: PÅ vs I, indirekta frågor, ordföljd)
 2026-11-24 -- 54 min (English Q&A practice - ArrayList vs LinkedList CPU cache locality, HashMap mutable key & equals/hashCode contract)
 2026-11-24 -- 63 min (Java URL & URLConnection - HTTP/HTTPS, status codes 2xx-5xx, getErrorStream, User-Agent pitfall & timeouts)
+2026-11-25 -- 36 min (English Q&A practice - String pool internals, StringBuilder vs StringBuffer & Compact Strings)
+2026-11-25 -- 69 min (Swedish - Ankomst till Luleå, V2 & bisats, mjukgörare: alltså, kanske, menar och uppfattat)
