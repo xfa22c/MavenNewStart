@@ -267,3 +267,5 @@
 2026-11-24 -- 63 min (Java URL & URLConnection - HTTP/HTTPS, status codes 2xx-5xx, getErrorStream, User-Agent pitfall & timeouts)
 2026-11-25 -- 36 min (English Q&A practice - String pool internals, StringBuilder vs StringBuffer & Compact Strings)
 2026-11-25 -- 69 min (Swedish - Ankomst till Luleå, V2 & bisats, mjukgörare: alltså, kanske, menar och uppfattat)
+2026-11-26 -- 45 min (English Q&A practice - OOP Static method hiding vs dynamic dispatch & constructor init trap)
+2026-11-26 -- 69 min (Java Advanced - Apache POI, PDF iText, Telegram Bot architecture & Path Traversal)
