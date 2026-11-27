@@ -269,3 +269,5 @@
 2026-11-25 -- 69 min (Swedish - Ankomst till Luleå, V2 & bisats, mjukgörare: alltså, kanske, menar och uppfattat)
 2026-11-26 -- 45 min (English Q&A practice - OOP Static method hiding vs dynamic dispatch & constructor init trap)
 2026-11-26 -- 69 min (Java Advanced - Apache POI, PDF iText, Telegram Bot architecture & Path Traversal)
+2026-11-27 -- 60 min (English Q&A - Java Generics, Invariance, PECS & wildcard bounds)
+2026-11-27 -- 62 min (Swedish - Hörförståelse Brandman Sam)
